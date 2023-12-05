@@ -52,31 +52,6 @@ const GroupChatList = ({ onChatSelect }) => {
           ))}
         </ul>
       )}
-      <div className="mt-4">
-        <button
-          className="px-4 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:border-blue-300  text-black"
-          onClick={handleCreateChatClick}
-        >
-          Iniciar Nuevo Chat
-        </button>
-      </div>
-      {isCreatingChat && (
-        <div className="mt-4 flex items-center">
-          <input
-            type="text"
-            className="border rounded py-2 px-3 focus:outline-none focus:ring focus:border-indigo-300 flex-1 text-black"
-            placeholder="Nombre del nuevo chat"
-            value={newChatName}
-            onChange={(e) => setNewChatName(e.target.value)}
-          />
-          <button
-            className="ml-2 px-4 py-2 bg-indigo-500 text-white rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:border-indigo-300"
-            onClick={handleCreateChat}
-          >
-            Crear
-          </button>
-        </div>
-      )}
     </div>
   );
 };
