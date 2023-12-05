@@ -1,0 +1,13 @@
+ENLACE A LA APLICACION HOSTEADA:
+https://mensajeria-654c9.web.app/login
+
+
+Datos de acceso:
+lalo12@gmail.com 
+contraseña: 123456
+
+random1@gmail.com
+contraseña: 123456
+
+enlace a github:
+https://github.com/luisesgut/PROYECTO-MENSAJERIA
